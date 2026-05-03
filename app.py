@@ -25,7 +25,7 @@ nivel_escolhido = random.choice(nivel)
 texto_mensagem = mensagem[nivel_escolhido - 1]
 
 # Colhendo a cor da lista de cores criada de acordo com o nível escolhido randomicamente
-cor_mensagem = cor(nivel_escolhido - 1)
+cor_mensagem = cor(nivel_escolhido)
 
 # Exibindo a mensagem em sua determinada cor
-print(f"{cor_mensagem}{texto_mensagem}{Style.RESET_ALL}")
+print(f"O nível detectado foi: {cor_mensagem}{texto_mensagem}{Style.RESET_ALL}")
